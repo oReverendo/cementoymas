@@ -41,7 +41,7 @@ img{max-width:100%;display:block}
 /* ---------- cabecera ---------- */
 .cab{position:sticky;top:0;z-index:90;background:#fff;box-shadow:0 2px 14px rgba(11,44,87,.07)}
 .cab::after{content:"";height:3px;position:absolute;left:0;right:0;bottom:0;
-  background:linear-gradient(90deg,var(--oscuro) 0 68%,var(--rojo) 68% 100%)}
+  background:var(--rojo)}
 .cab .wrap{display:flex;align-items:center;gap:30px;min-height:82px}
 .logo{display:flex;align-items:center;text-decoration:none;margin-right:auto;padding:4px 0}
 .logo img{height:50px;width:auto;display:block}
@@ -187,7 +187,7 @@ footer{background:var(--oscuro-2);color:#8FA0B4;font-size:15.5px;padding:62px 0 
 .ph::after{content:attr(data-label);position:absolute;inset:0;display:flex;align-items:center;
   justify-content:center;text-align:center;padding:18px;font-family:Archivo,sans-serif;font-size:13.5px;
   font-weight:600;color:#74849A;letter-spacing:.03em}
-.ph:has(img[src]:not([src=""])) ::after{content:none}
+.ph:has(img)::after{content:none}
 
 :focus-visible{outline:2px solid var(--rojo);outline-offset:2px}
 
