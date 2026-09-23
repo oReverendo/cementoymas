@@ -246,6 +246,7 @@ footer{background:var(--oscuro-2);color:#8FA0B4;font-size:15.5px;padding:62px 0 
 }
 
 @media (max-width:620px){
+  .hero .marca-agua{background:linear-gradient(180deg,rgba(10,28,54,.86) 0%,rgba(10,28,54,.80) 55%,rgba(10,28,54,.88) 100%)}
   section{padding:60px 0}
   .grid-serv,.grid-proy,.grid-test,.fila,.pie{grid-template-columns:1fr}
   .pie div:first-child{grid-column:auto}
